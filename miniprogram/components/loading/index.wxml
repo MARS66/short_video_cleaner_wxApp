@@ -1,0 +1,10 @@
+<!--pages/components/loading/index.wxml-->
+<view class="content">  
+  <view class="loader">
+    <view class="inner one"></view>
+    <view class="inner two"></view>
+    <view class="inner three"></view>
+    <view class="inner text" wx:if="{{progress}}">{{progress}} %</view>
+  </view>
+  <view class="tip">{{loadText}}</view>
+</view>

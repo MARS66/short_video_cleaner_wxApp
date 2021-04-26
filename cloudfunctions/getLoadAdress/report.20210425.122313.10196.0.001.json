@@ -1,0 +1,425 @@
+
+{
+  "header": {
+    "reportVersion": 2,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20210425.122313.10196.0.001.json",
+    "dumpEventTime": "2021-04-25T12:23:13Z",
+    "dumpEventTimeStamp": "1619324593548",
+    "processId": 10196,
+    "threadId": null,
+    "cwd": "C:\\Users\\Administrator\\Desktop\\videoCleaner\\short_video_cleaner_wxApp\\videoCleaner\\cloudfunctions\\getLoadAdress",
+    "commandLine": [
+      "D:\\微信web开发者工具\\node.exe",
+      "D:\\微信web开发者工具\\code\\package.nw\\js\\common\\cloud-functions-debugger-server\\worker\\node.js"
+    ],
+    "nodejsVersion": "v13.10.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "13.10.1",
+      "v8": "7.9.317.25-node.29",
+      "uv": "1.34.2",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "79",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "openssl": "1.1.1d",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v13.10.1/node-v13.10.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v13.10.1/node-v13.10.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v13.10.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.17763",
+    "osVersion": "Windows 10 Enterprise LTSC 2019",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD Ryzen 5 3600 6-Core Processor              ",
+        "speed": 3593,
+        "user": 5217531,
+        "nice": 0,
+        "sys": 4512828,
+        "idle": 426985718,
+        "irq": 994640
+      },
+      {
+        "model": "AMD Ryzen 5 3600 6-Core Processor              ",
+        "speed": 3593,
+        "user": 2395953,
+        "nice": 0,
+        "sys": 937718,
+        "idle": 433382468,
+        "irq": 27281
+      },
+      {
+        "model": "AMD Ryzen 5 3600 6-Core Processor              ",
+        "speed": 3593,
+        "user": 14283609,
+        "nice": 0,
+        "sys": 4186984,
+        "idle": 418245546,
+        "irq": 49687
+      },
+      {
+        "model": "AMD Ryzen 5 3600 6-Core Processor              ",
+        "speed": 3593,
+        "user": 4454562,
+        "nice": 0,
+        "sys": 1412718,
+        "idle": 430848859,
+        "irq": 32343
+      },
+      {
+        "model": "AMD Ryzen 5 3600 6-Core Processor              ",
+        "speed": 3593,
+        "user": 9101875,
+        "nice": 0,
+        "sys": 2490953,
+        "idle": 425123062,
+        "irq": 47031
+      },
+      {
+        "model": "AMD Ryzen 5 3600 6-Core Processor              ",
+        "speed": 3593,
+        "user": 4296906,
+        "nice": 0,
+        "sys": 1148750,
+        "idle": 431270234,
+        "irq": 24796
+      },
+      {
+        "model": "AMD Ryzen 5 3600 6-Core Processor              ",
+        "speed": 3593,
+        "user": 19125953,
+        "nice": 0,
+        "sys": 9912828,
+        "idle": 407677046,
+        "irq": 107437
+      },
+      {
+        "model": "AMD Ryzen 5 3600 6-Core Processor              ",
+        "speed": 3593,
+        "user": 2747765,
+        "nice": 0,
+        "sys": 1783109,
+        "idle": 432185015,
+        "irq": 18968
+      },
+      {
+        "model": "AMD Ryzen 5 3600 6-Core Processor              ",
+        "speed": 3593,
+        "user": 6364125,
+        "nice": 0,
+        "sys": 2194125,
+        "idle": 428157625,
+        "irq": 65828
+      },
+      {
+        "model": "AMD Ryzen 5 3600 6-Core Processor              ",
+        "speed": 3593,
+        "user": 2213484,
+        "nice": 0,
+        "sys": 847140,
+        "idle": 433655250,
+        "irq": 21593
+      },
+      {
+        "model": "AMD Ryzen 5 3600 6-Core Processor              ",
+        "speed": 3593,
+        "user": 4253609,
+        "nice": 0,
+        "sys": 1479468,
+        "idle": 430982796,
+        "irq": 42531
+      },
+      {
+        "model": "AMD Ryzen 5 3600 6-Core Processor              ",
+        "speed": 3593,
+        "user": 2475296,
+        "nice": 0,
+        "sys": 2277000,
+        "idle": 431963578,
+        "irq": 187734
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "以太网",
+        "internal": false,
+        "mac": "18:c0:4d:22:c1:44",
+        "address": "fe80::3cc7:d411:7cb5:8f7e",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 14
+      },
+      {
+        "name": "以太网",
+        "internal": false,
+        "mac": "18:c0:4d:22:c1:44",
+        "address": "192.168.37.89",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "MININT-K1SC6R9"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff7965624a9",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+11561"
+    },
+    {
+      "pc": "0x00007ff796566959",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+29145"
+    },
+    {
+      "pc": "0x00007ff7965657d8",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24664"
+    },
+    {
+      "pc": "0x00007ff79668bb12",
+      "symbol": "v8::base::CPU::has_sse+60322"
+    },
+    {
+      "pc": "0x00007ff796eb9c3e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff796ea1391",
+      "symbol": "v8::SharedArrayBuffer::Externalize+785"
+    },
+    {
+      "pc": "0x00007ff796d683ec",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1468"
+    },
+    {
+      "pc": "0x00007ff796d73730",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x00007ff796d70224",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3188"
+    },
+    {
+      "pc": "0x00007ff796d65933",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff796d640c4",
+      "symbol": "v8::internal::Heap::AllocateExternalBackingStore+1396"
+    },
+    {
+      "pc": "0x00007ff796d86194",
+      "symbol": "v8::internal::Factory::NewFillerObject+196"
+    },
+    {
+      "pc": "0x00007ff796ae0541",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+1681"
+    },
+    {
+      "pc": "0x00007ff79730358d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+517453"
+    },
+    {
+      "pc": "0x00007ff797304405",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+521157"
+    },
+    {
+      "pc": "0x000000bbf6a6467e",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2155581440,
+    "totalCommittedMemory": 2155581440,
+    "usedMemory": 2133886584,
+    "availableMemory": 46568376,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 33040,
+        "used": 33040,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 4194304,
+        "committedMemory": 4194304,
+        "capacity": 2094848,
+        "used": 281304,
+        "available": 1813544
+      },
+      "old_space": {
+        "memorySize": 1901735936,
+        "committedMemory": 1901735936,
+        "capacity": 1886318528,
+        "used": 1885892400,
+        "available": 426128
+      },
+      "code_space": {
+        "memorySize": 6197248,
+        "committedMemory": 6197248,
+        "capacity": 5263296,
+        "used": 5263296,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 12587008,
+        "committedMemory": 12587008,
+        "capacity": 12323920,
+        "used": 12323920,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 230555648,
+        "committedMemory": 230555648,
+        "capacity": 230089840,
+        "used": 230089840,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 2094848,
+        "used": 0,
+        "available": 2094848
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 242.64,
+    "kernelCpuSeconds": 9.812,
+    "cpuConsumptionPercent": 231.607,
+    "maxRss": 2399539200,
+    "pageFaults": {
+      "IORequired": 809537,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 140617,
+      "writes": 1545
+    }
+  },
+  "libuv": [
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Administrator",
+    "HTTP_PROXY": "http://127.0.0.1:55963",
+    "LOGONSERVER": "\\\\MININT-K1SC6R9",
+    "NODE_PATH": "C:\\Users\\Administrator\\Desktop\\videoCleaner\\short_video_cleaner_wxApp\\videoCleaner\\cloudfunctions\\getLoadAdress",
+    "PATH": "C:\\geostar\\Oracle11\\Bin;C:\\geostar\\Oracle11;C:\\geostar\\Public\\Kernel;C:\\geostar\\Public;C:\\geostar;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\TortoiseSVN\\bin;E:\\Git\\cmd;E:\\python\\Scripts\\;E:\\python\\;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Administrator\\AppData\\Roaming\\npm;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;D:\\Program Files\\nodejs\\node_global;",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\windows",
+    "TCB_CONTEXT_KEYS": "TCB_ENV",
+    "TCB_ENV": "local",
+    "TCB_SOURCE": "wx_client",
+    "TEMP": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp",
+    "TENCENTCLOUD_RUNENV": "WX_LOCAL_SCF",
+    "TENCENTCLOUD_SECRETID": "AKIDwm5B4noOEv8LGogu0FDdiQ-RxuRcrWgyBJzTuUpWex-3d03Pkx79aS1enRoyqp-9",
+    "TENCENTCLOUD_SECRETKEY": "s1w1ThgA801I2jkIuPszQWvd6y9bKoxCsMjeZ1NwBBk=",
+    "TENCENTCLOUD_SESSIONTOKEN": "4WLJDaVXJDOT3vCRgGHbD4NWTenAcqIa64d84e704a7eec486690d7471eec33e3nKuyBQpiNnDvww5O40C4WgT7GAIm7jIkOfA65c_jeqtEqA4Njr4BSX9v6zr8ZAAOhJIjRHJSB8wpHZOtgmoyx6QrPaXzWfnH_DX1Dfr9bmNmxQp0dowiXESF3SXuM7kuruQp7vpr-jHc636LM3SBt9S6YrvDBTQNX8V1HPDFSSkX9shQsbvf7Dg_dQ6TLXaNd2utu-iChji4FB4pTi25Bz5ET8v7Ivm3FLeYnoBfCcOYFaRO-iaSmlmUAc8D0SoUN1MuyPSfW29g0Q5rshtSf5FfcVL7heFH-2UlPaHWl-ZU3L7IeqzjYCG6byUKtp91bV-uCcMd99AdAU5OUeyh6QmQAlvia4HQve-DUsrxmy4",
+    "USERDOMAIN": "MININT-K1SC6R9",
+    "USERNAME": "Administrator",
+    "USERPROFILE": "C:\\Users\\Administrator",
+    "WINDIR": "C:\\windows",
+    "WX_API_TOKEN": "eyJWZXJzaW9uIjoxLCJLZXlWZXJzaW9uIjoxNTEsImV2ZW50SWQiOiJITTZTNTZhWHlHMC10cXI0Mk80aV9ra01JSkNqOTU4X0N0ajM5MUVxRDRVb3N0MDBMVm1WbGZ5RWZFMjRDMzdWeGt0RnhkNU01dyIsInRpY2tldCI6IkNJc0JFb0FDSjRYamRpV210OFFUT3I2eGZUWHh0bVRRYVBIdXppd3FEK2pndU5kZVVmcVdHUm9SY1NvWVZncTV4dTNobUdOZWZyTHkvcFYwd056NWVCUWRlV0VDU1U2V3pZSkl2Vk5wVzdsQkJEd0VLNTVLMEo3bmZxdDJXQTJ1dWlnNkNyMFdNK3lNdlFiejFmeFM2ZEhLRWovem52Q01tdzRobXk1Wk9PMTEvU2k3SVFnLzJpYmFBZnp2ZlFjQmNiSlc2c3E4QkRBazZQWURHcjRSZEpPaGFPL25TeFBFWWtENlRRY0hhQ0t4NXpXMHo5SUFKK0hSSjlFYndaYlRnbDFqT1ZGQ3B6Wm5RVXk3T2s3YkRDWmZRY0xORVJLUUZSdVNFK3YxK3FJblc1TzFUY1FPVHYzYlJLbCs5VUxxVlM0RmVzN0hCaTRNZnR4RjVaY1VCN0o1QkVRY0JpQUEiLCJFbmNyeXB0QWxnbyI6IkVOQ1JZUFRfQUxHT19BRVNfQ0dNIiwiRW5jcnlwdEtleSI6IlJmWUplMGZQTnlaVTl2NnhtMUZGUWlsVDdsMnNlNWpaSFBPekFkMXJORnc9In0=",
+    "WX_APPID": "wx810a9cdd6d73de61",
+    "WX_CLIENTIP": "113.57.165.10",
+    "WX_CLIENTIPV6": "::ffff:113.57.165.10",
+    "WX_CONTEXT_KEYS": "WX_APPID,WX_OPENID,WX_CLIENTIP,WX_CLIENTIPV6,WX_API_TOKEN",
+    "WX_OPENID": "objmQ5RNZqLRKa5Sz3-oJuj5gJD0",
+    "__CF_ENV_INIT_TIME": "Sun Apr 25 2021 12:21:24 GMT+0800 (中国标准时间)"
+  },
+  "sharedObjects": [
+    "D:\\微信web开发者工具\\node.exe",
+    "C:\\windows\\SYSTEM32\\ntdll.dll",
+    "C:\\windows\\System32\\KERNEL32.DLL",
+    "C:\\windows\\System32\\KERNELBASE.dll",
+    "C:\\windows\\System32\\WS2_32.dll",
+    "C:\\windows\\System32\\RPCRT4.dll",
+    "C:\\windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\windows\\System32\\PSAPI.DLL",
+    "C:\\windows\\System32\\ucrtbase.dll",
+    "C:\\windows\\System32\\ADVAPI32.dll",
+    "C:\\windows\\System32\\msvcrt.dll",
+    "C:\\windows\\System32\\sechost.dll",
+    "C:\\windows\\SYSTEM32\\USERENV.dll",
+    "C:\\windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\windows\\System32\\USER32.dll",
+    "C:\\windows\\System32\\profapi.dll",
+    "C:\\windows\\System32\\win32u.dll",
+    "C:\\windows\\System32\\GDI32.dll",
+    "C:\\windows\\System32\\gdi32full.dll",
+    "C:\\windows\\System32\\msvcp_win.dll",
+    "C:\\windows\\System32\\CRYPT32.dll",
+    "C:\\windows\\System32\\MSASN1.dll",
+    "C:\\windows\\System32\\bcrypt.dll",
+    "C:\\windows\\SYSTEM32\\WINMM.dll",
+    "C:\\windows\\SYSTEM32\\winmmbase.dll",
+    "C:\\windows\\System32\\cfgmgr32.dll",
+    "C:\\windows\\System32\\IMM32.DLL",
+    "C:\\windows\\System32\\powrprof.dll",
+    "C:\\windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\windows\\System32\\bcryptPrimitives.dll",
+    "C:\\windows\\system32\\uxtheme.dll",
+    "C:\\windows\\System32\\combase.dll",
+    "C:\\windows\\system32\\mswsock.dll",
+    "C:\\windows\\System32\\kernel.appcore.dll",
+    "C:\\windows\\System32\\NSI.dll",
+    "C:\\windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\windows\\system32\\napinsp.dll",
+    "C:\\windows\\system32\\pnrpnsp.dll",
+    "C:\\windows\\System32\\winrnr.dll",
+    "C:\\windows\\system32\\NLAapi.dll",
+    "C:\\windows\\system32\\wshbth.dll"
+  ]
+}

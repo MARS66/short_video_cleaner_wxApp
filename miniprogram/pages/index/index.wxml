@@ -1,0 +1,47 @@
+<!--index.wxml-->
+<view class="container">
+  <view>
+      <view class="logo">
+        <image src="../../image/logo.png" mode="aspectFit"></image>
+        <view class="tips">支持：<text >抖音、Tiktok、快手、火山小视频、皮皮搞笑！</text></view>
+      </view>
+
+      <view class="input">
+        <input bindinput="bindKeyInput" placeholder="将短视频链接粘贴至此处"/>
+        <view class="button-sp-area">
+          <view class="default primary" data-type="download" bindtap="autoDeel">下载</view>
+          <view class="default" data-type="fetch"  bindtap="autoDeel">解析</view>
+        </view>
+      </view>
+      <view class="link" wx:if="{{downloadAddr}}">
+        <view>复制链接打开任意浏览器下载:</view>
+          <a  data-text="{{downloadAddr}}" bindtap="copy">{{downloadAddr}}</a>
+      </view>
+  </view>
+  <view class="center">
+    <view  wx:if="{{!downloadAddr}}" class="support">
+      <image wx:for="{{supports}}" wx:key='item' mode="aspectFit" src="{{item}}"></image>
+    </view>
+    <loading wx:if="{{showLoading}}" loadText="{{loadText}}" progress="{{progress}}"></loading>
+  </view>
+  <view  class="usermotto">
+    <text> All the videos </text>
+    <text> May not be used for commercial purposes </text>
+    <text> Only for entertainment to enjoy.</text>
+    <view> feedback：<a bindtap="copyEmail" data-text="kevin8969@163.com">kevin8969@163.com</a></view>
+  </view>
+
+  <view class="share" wx:if="{{share}}">
+    <view class="share-content">
+      
+      <view>小程序分享</view>
+      <view>
+        <text>别藏着掖着行吗？ 此等神器快快分享！！！ 快点，别那么小气好吗(￢_￢)</text>
+      </view>
+      <view class="share-btns">  
+        <button class="sayno" bindtap="close" type="default" size="mini">丑 拒 (꒦_꒦) </button>
+        <button class="mini-btn" open-type="share" type="primary" size="mini">好 的 (*￣︶￣*)</button>
+      </view>
+    </view>
+  </view>
+</view>
